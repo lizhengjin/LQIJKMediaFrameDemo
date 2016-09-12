@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CAFE9F29454E10F2E38B06 /* libPods-LQIJKMediaFrameDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD61810720940BB6441CC0C /* libPods-LQIJKMediaFrameDemo.a */; };
+		4E022B961D800724000D905C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E022B951D800724000D905C /* main.m */; };
+		4E022B991D800724000D905C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E022B981D800724000D905C /* AppDelegate.m */; };
+		4E022B9C1D800724000D905C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E022B9B1D800724000D905C /* ViewController.m */; };
+		4E022B9F1D800724000D905C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E022B9D1D800724000D905C /* Main.storyboard */; };
+		4E022BA11D800724000D905C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E022BA01D800724000D905C /* Assets.xcassets */; };
+		4E022BA41D800724000D905C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E022BA21D800724000D905C /* LaunchScreen.storyboard */; };
+		4E022BAF1D800724000D905C /* LQIJKMediaFrameDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E022BAE1D800724000D905C /* LQIJKMediaFrameDemoTests.m */; };
+		4E022BBA1D800724000D905C /* LQIJKMediaFrameDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E022BB91D800724000D905C /* LQIJKMediaFrameDemoUITests.m */; };
+		4E022BCA1D80143D000D905C /* LQLiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E022BC91D80143D000D905C /* LQLiveListViewController.m */; };
+		4E022BCE1D801492000D905C /* LQLiveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E022BCD1D801492000D905C /* LQLiveItem.m */; };
+		4E05E9491D83E02900989956 /* LQListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E022BD51D801C8E000D905C /* LQListDetailViewController.m */; };
+		4E5EBC4D1D816FD000680DB9 /* LQLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5EBC4C1D816FD000680DB9 /* LQLiveCell.m */; };
+		4E5EBC551D81711200680DB9 /* LQLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E5EBC541D81711200680DB9 /* LQLiveCell.xib */; };
+		4EA65AA51D83E23B007DE847 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65AA41D83E23B007DE847 /* VideoToolbox.framework */; };
+		4EA65AA71D83E244007DE847 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65AA61D83E244007DE847 /* OpenGLES.framework */; };
+		4EA65AA91D83E24D007DE847 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65AA81D83E24D007DE847 /* MobileCoreServices.framework */; };
+		4EA65AAB1D83E263007DE847 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65AAA1D83E263007DE847 /* CoreVideo.framework */; };
+		4EA65AAD1D83E272007DE847 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65AAC1D83E272007DE847 /* libz.tbd */; };
+		4EA65AAF1D83E27C007DE847 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65AAE1D83E27C007DE847 /* libbz2.tbd */; };
+		4EA65AB11D83E28F007DE847 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65AB01D83E28F007DE847 /* CoreMedia.framework */; };
+		4EA65AB31D83E298007DE847 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65AB21D83E298007DE847 /* AVFoundation.framework */; };
+		4EA65AB51D83E2A4007DE847 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65AB41D83E2A4007DE847 /* AudioToolbox.framework */; };
+		4EA65B0B1D83E8B2007DE847 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA65B0A1D83E8B2007DE847 /* IJKMediaFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E022BAB1D800724000D905C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E022B891D800724000D905C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E022B901D800724000D905C;
+			remoteInfo = LQIJKMediaFrameDemo;
+		};
+		4E022BB61D800724000D905C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E022B891D800724000D905C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E022B901D800724000D905C;
+			remoteInfo = LQIJKMediaFrameDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BD61810720940BB6441CC0C /* libPods-LQIJKMediaFrameDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LQIJKMediaFrameDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8C3127E130EFADD68BDCFC /* Pods-LQIJKMediaFrameDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQIJKMediaFrameDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LQIJKMediaFrameDemo/Pods-LQIJKMediaFrameDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4E022B911D800724000D905C /* LQIJKMediaFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQIJKMediaFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E022B951D800724000D905C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E022B971D800724000D905C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E022B981D800724000D905C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E022B9A1D800724000D905C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E022B9B1D800724000D905C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E022B9E1D800724000D905C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E022BA01D800724000D905C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E022BA31D800724000D905C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E022BA51D800724000D905C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E022BAA1D800724000D905C /* LQIJKMediaFrameDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQIJKMediaFrameDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E022BAE1D800724000D905C /* LQIJKMediaFrameDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQIJKMediaFrameDemoTests.m; sourceTree = "<group>"; };
+		4E022BB01D800724000D905C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E022BB51D800724000D905C /* LQIJKMediaFrameDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQIJKMediaFrameDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E022BB91D800724000D905C /* LQIJKMediaFrameDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQIJKMediaFrameDemoUITests.m; sourceTree = "<group>"; };
+		4E022BBB1D800724000D905C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E022BC81D80143D000D905C /* LQLiveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQLiveListViewController.h; sourceTree = "<group>"; };
+		4E022BC91D80143D000D905C /* LQLiveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQLiveListViewController.m; sourceTree = "<group>"; };
+		4E022BCC1D801492000D905C /* LQLiveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQLiveItem.h; sourceTree = "<group>"; };
+		4E022BCD1D801492000D905C /* LQLiveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQLiveItem.m; sourceTree = "<group>"; };
+		4E022BD41D801C8E000D905C /* LQListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQListDetailViewController.h; sourceTree = "<group>"; };
+		4E022BD51D801C8E000D905C /* LQListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQListDetailViewController.m; sourceTree = "<group>"; };
+		4E5EBC4B1D816FD000680DB9 /* LQLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQLiveCell.h; sourceTree = "<group>"; };
+		4E5EBC4C1D816FD000680DB9 /* LQLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQLiveCell.m; sourceTree = "<group>"; };
+		4E5EBC541D81711200680DB9 /* LQLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LQLiveCell.xib; sourceTree = "<group>"; };
+		4EA65AA41D83E23B007DE847 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		4EA65AA61D83E244007DE847 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4EA65AA81D83E24D007DE847 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4EA65AAA1D83E263007DE847 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4EA65AAC1D83E272007DE847 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4EA65AAE1D83E27C007DE847 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		4EA65AB01D83E28F007DE847 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4EA65AB21D83E298007DE847 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4EA65AB41D83E2A4007DE847 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4EA65B0A1D83E8B2007DE847 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = LQIJKMediaFrameDemo/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		84F4E0497D6E009F253125E5 /* Pods-LQIJKMediaFrameDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQIJKMediaFrameDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LQIJKMediaFrameDemo/Pods-LQIJKMediaFrameDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E022B8E1D800724000D905C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA65B0B1D83E8B2007DE847 /* IJKMediaFramework.framework in Frameworks */,
+				4EA65AB51D83E2A4007DE847 /* AudioToolbox.framework in Frameworks */,
+				4EA65AB31D83E298007DE847 /* AVFoundation.framework in Frameworks */,
+				4EA65AB11D83E28F007DE847 /* CoreMedia.framework in Frameworks */,
+				4EA65AAF1D83E27C007DE847 /* libbz2.tbd in Frameworks */,
+				4EA65AAD1D83E272007DE847 /* libz.tbd in Frameworks */,
+				4EA65AAB1D83E263007DE847 /* CoreVideo.framework in Frameworks */,
+				4EA65AA91D83E24D007DE847 /* MobileCoreServices.framework in Frameworks */,
+				4EA65AA71D83E244007DE847 /* OpenGLES.framework in Frameworks */,
+				4EA65AA51D83E23B007DE847 /* VideoToolbox.framework in Frameworks */,
+				10CAFE9F29454E10F2E38B06 /* libPods-LQIJKMediaFrameDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E022BA71D800724000D905C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E022BB21D800724000D905C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC1822BE41D70BCE9141132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84F4E0497D6E009F253125E5 /* Pods-LQIJKMediaFrameDemo.debug.xcconfig */,
+				1B8C3127E130EFADD68BDCFC /* Pods-LQIJKMediaFrameDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E022B881D800724000D905C = {
+			isa = PBXGroup;
+			children = (
+				4E022B931D800724000D905C /* LQIJKMediaFrameDemo */,
+				4E022BAD1D800724000D905C /* LQIJKMediaFrameDemoTests */,
+				4E022BB81D800724000D905C /* LQIJKMediaFrameDemoUITests */,
+				4E022B921D800724000D905C /* Products */,
+				2AC1822BE41D70BCE9141132 /* Pods */,
+				89068C295064C9F7F18BB91F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E022B921D800724000D905C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E022B911D800724000D905C /* LQIJKMediaFrameDemo.app */,
+				4E022BAA1D800724000D905C /* LQIJKMediaFrameDemoTests.xctest */,
+				4E022BB51D800724000D905C /* LQIJKMediaFrameDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E022B931D800724000D905C /* LQIJKMediaFrameDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4E022BC81D80143D000D905C /* LQLiveListViewController.h */,
+				4E022BC91D80143D000D905C /* LQLiveListViewController.m */,
+				4E022BD41D801C8E000D905C /* LQListDetailViewController.h */,
+				4E022BD51D801C8E000D905C /* LQListDetailViewController.m */,
+				4E022BD01D8014A2000D905C /* View */,
+				4E022BCF1D80149B000D905C /* Model */,
+				4E022BCB1D801446000D905C /* Controller */,
+				4E022B971D800724000D905C /* AppDelegate.h */,
+				4E022B981D800724000D905C /* AppDelegate.m */,
+				4E022B9A1D800724000D905C /* ViewController.h */,
+				4E022B9B1D800724000D905C /* ViewController.m */,
+				4E022B9D1D800724000D905C /* Main.storyboard */,
+				4E022BA01D800724000D905C /* Assets.xcassets */,
+				4E022BA21D800724000D905C /* LaunchScreen.storyboard */,
+				4E022BA51D800724000D905C /* Info.plist */,
+				4E022B941D800724000D905C /* Supporting Files */,
+			);
+			path = LQIJKMediaFrameDemo;
+			sourceTree = "<group>";
+		};
+		4E022B941D800724000D905C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E022B951D800724000D905C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E022BAD1D800724000D905C /* LQIJKMediaFrameDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E022BAE1D800724000D905C /* LQIJKMediaFrameDemoTests.m */,
+				4E022BB01D800724000D905C /* Info.plist */,
+			);
+			path = LQIJKMediaFrameDemoTests;
+			sourceTree = "<group>";
+		};
+		4E022BB81D800724000D905C /* LQIJKMediaFrameDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E022BB91D800724000D905C /* LQIJKMediaFrameDemoUITests.m */,
+				4E022BBB1D800724000D905C /* Info.plist */,
+			);
+			path = LQIJKMediaFrameDemoUITests;
+			sourceTree = "<group>";
+		};
+		4E022BCB1D801446000D905C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4E022BCF1D80149B000D905C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E022BCC1D801492000D905C /* LQLiveItem.h */,
+				4E022BCD1D801492000D905C /* LQLiveItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4E022BD01D8014A2000D905C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E5EBC4B1D816FD000680DB9 /* LQLiveCell.h */,
+				4E5EBC4C1D816FD000680DB9 /* LQLiveCell.m */,
+				4E5EBC541D81711200680DB9 /* LQLiveCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		89068C295064C9F7F18BB91F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EA65B0A1D83E8B2007DE847 /* IJKMediaFramework.framework */,
+				4EA65AB41D83E2A4007DE847 /* AudioToolbox.framework */,
+				4EA65AB21D83E298007DE847 /* AVFoundation.framework */,
+				4EA65AB01D83E28F007DE847 /* CoreMedia.framework */,
+				4EA65AAE1D83E27C007DE847 /* libbz2.tbd */,
+				4EA65AAC1D83E272007DE847 /* libz.tbd */,
+				4EA65AAA1D83E263007DE847 /* CoreVideo.framework */,
+				4EA65AA81D83E24D007DE847 /* MobileCoreServices.framework */,
+				4EA65AA61D83E244007DE847 /* OpenGLES.framework */,
+				4EA65AA41D83E23B007DE847 /* VideoToolbox.framework */,
+				0BD61810720940BB6441CC0C /* libPods-LQIJKMediaFrameDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E022B901D800724000D905C /* LQIJKMediaFrameDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E022BBE1D800724000D905C /* Build configuration list for PBXNativeTarget "LQIJKMediaFrameDemo" */;
+			buildPhases = (
+				406DA10B7DD5696E350C794D /* [CP] Check Pods Manifest.lock */,
+				4E022B8D1D800724000D905C /* Sources */,
+				4E022B8E1D800724000D905C /* Frameworks */,
+				4E022B8F1D800724000D905C /* Resources */,
+				B9AADE8B260956FA9DD8DC02 /* [CP] Embed Pods Frameworks */,
+				27527F09A3B617CEF0833F7E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQIJKMediaFrameDemo;
+			productName = LQIJKMediaFrameDemo;
+			productReference = 4E022B911D800724000D905C /* LQIJKMediaFrameDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E022BA91D800724000D905C /* LQIJKMediaFrameDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E022BC11D800724000D905C /* Build configuration list for PBXNativeTarget "LQIJKMediaFrameDemoTests" */;
+			buildPhases = (
+				4E022BA61D800724000D905C /* Sources */,
+				4E022BA71D800724000D905C /* Frameworks */,
+				4E022BA81D800724000D905C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E022BAC1D800724000D905C /* PBXTargetDependency */,
+			);
+			name = LQIJKMediaFrameDemoTests;
+			productName = LQIJKMediaFrameDemoTests;
+			productReference = 4E022BAA1D800724000D905C /* LQIJKMediaFrameDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E022BB41D800724000D905C /* LQIJKMediaFrameDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E022BC41D800724000D905C /* Build configuration list for PBXNativeTarget "LQIJKMediaFrameDemoUITests" */;
+			buildPhases = (
+				4E022BB11D800724000D905C /* Sources */,
+				4E022BB21D800724000D905C /* Frameworks */,
+				4E022BB31D800724000D905C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E022BB71D800724000D905C /* PBXTargetDependency */,
+			);
+			name = LQIJKMediaFrameDemoUITests;
+			productName = LQIJKMediaFrameDemoUITests;
+			productReference = 4E022BB51D800724000D905C /* LQIJKMediaFrameDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E022B891D800724000D905C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liqi;
+				TargetAttributes = {
+					4E022B901D800724000D905C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4E022BA91D800724000D905C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4E022B901D800724000D905C;
+					};
+					4E022BB41D800724000D905C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4E022B901D800724000D905C;
+					};
+				};
+			};
+			buildConfigurationList = 4E022B8C1D800724000D905C /* Build configuration list for PBXProject "LQIJKMediaFrameDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E022B881D800724000D905C;
+			productRefGroup = 4E022B921D800724000D905C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E022B901D800724000D905C /* LQIJKMediaFrameDemo */,
+				4E022BA91D800724000D905C /* LQIJKMediaFrameDemoTests */,
+				4E022BB41D800724000D905C /* LQIJKMediaFrameDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E022B8F1D800724000D905C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5EBC551D81711200680DB9 /* LQLiveCell.xib in Resources */,
+				4E022BA41D800724000D905C /* LaunchScreen.storyboard in Resources */,
+				4E022BA11D800724000D905C /* Assets.xcassets in Resources */,
+				4E022B9F1D800724000D905C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E022BA81D800724000D905C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E022BB31D800724000D905C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27527F09A3B617CEF0833F7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LQIJKMediaFrameDemo/Pods-LQIJKMediaFrameDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		406DA10B7DD5696E350C794D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9AADE8B260956FA9DD8DC02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LQIJKMediaFrameDemo/Pods-LQIJKMediaFrameDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E022B8D1D800724000D905C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E05E9491D83E02900989956 /* LQListDetailViewController.m in Sources */,
+				4E022B9C1D800724000D905C /* ViewController.m in Sources */,
+				4E022BCE1D801492000D905C /* LQLiveItem.m in Sources */,
+				4E5EBC4D1D816FD000680DB9 /* LQLiveCell.m in Sources */,
+				4E022BCA1D80143D000D905C /* LQLiveListViewController.m in Sources */,
+				4E022B991D800724000D905C /* AppDelegate.m in Sources */,
+				4E022B961D800724000D905C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E022BA61D800724000D905C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E022BAF1D800724000D905C /* LQIJKMediaFrameDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E022BB11D800724000D905C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E022BBA1D800724000D905C /* LQIJKMediaFrameDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E022BAC1D800724000D905C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E022B901D800724000D905C /* LQIJKMediaFrameDemo */;
+			targetProxy = 4E022BAB1D800724000D905C /* PBXContainerItemProxy */;
+		};
+		4E022BB71D800724000D905C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E022B901D800724000D905C /* LQIJKMediaFrameDemo */;
+			targetProxy = 4E022BB61D800724000D905C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E022B9D1D800724000D905C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E022B9E1D800724000D905C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E022BA21D800724000D905C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E022BA31D800724000D905C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E022BBC1D800724000D905C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E022BBD1D800724000D905C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E022BBF1D800724000D905C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F4E0497D6E009F253125E5 /* Pods-LQIJKMediaFrameDemo.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LQIJKMediaFrameDemo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LQIJKMediaFrameDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHTC.LQIJKMediaFrameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		4E022BC01D800724000D905C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8C3127E130EFADD68BDCFC /* Pods-LQIJKMediaFrameDemo.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LQIJKMediaFrameDemo",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LQIJKMediaFrameDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHTC.LQIJKMediaFrameDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		4E022BC21D800724000D905C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LQIJKMediaFrameDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHTC.LQIJKMediaFrameDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQIJKMediaFrameDemo.app/LQIJKMediaFrameDemo";
+			};
+			name = Debug;
+		};
+		4E022BC31D800724000D905C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LQIJKMediaFrameDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHTC.LQIJKMediaFrameDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQIJKMediaFrameDemo.app/LQIJKMediaFrameDemo";
+			};
+			name = Release;
+		};
+		4E022BC51D800724000D905C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LQIJKMediaFrameDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHTC.LQIJKMediaFrameDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LQIJKMediaFrameDemo;
+			};
+			name = Debug;
+		};
+		4E022BC61D800724000D905C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LQIJKMediaFrameDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHTC.LQIJKMediaFrameDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LQIJKMediaFrameDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E022B8C1D800724000D905C /* Build configuration list for PBXProject "LQIJKMediaFrameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E022BBC1D800724000D905C /* Debug */,
+				4E022BBD1D800724000D905C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E022BBE1D800724000D905C /* Build configuration list for PBXNativeTarget "LQIJKMediaFrameDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E022BBF1D800724000D905C /* Debug */,
+				4E022BC01D800724000D905C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E022BC11D800724000D905C /* Build configuration list for PBXNativeTarget "LQIJKMediaFrameDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E022BC21D800724000D905C /* Debug */,
+				4E022BC31D800724000D905C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E022BC41D800724000D905C /* Build configuration list for PBXNativeTarget "LQIJKMediaFrameDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E022BC51D800724000D905C /* Debug */,
+				4E022BC61D800724000D905C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E022B891D800724000D905C /* Project object */;
+}
